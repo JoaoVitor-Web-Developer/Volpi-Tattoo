@@ -331,7 +331,7 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 380px) {
   .about {
-    max-width: 313px;
+    max-width: 315px;
     max-height: 1100px;
   }
 }
@@ -375,7 +375,6 @@ body::-webkit-scrollbar-thumb {
   top: 987px;
   left: 920px;
 }
-
 
 
 /* CONTATO - FOOTER */
