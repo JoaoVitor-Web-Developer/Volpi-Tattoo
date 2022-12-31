@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volpi - Tattoo - Galeria</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="assets/CSS/galerymore.css">
+    <link rel="icon" href="assets/CSS/image/icon.svg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+
+
+    <h1 class="title__more" style="--duration: 1s">
+        <span style="--delay: .5s">Galeria</span>
+    </h1>
+
+
+    <div class="full-img" id="fullImgBox">
+        <img src="assets/CSS/image/image_tattoo/Tattoo_luis_felipe_1.jpeg" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+    </div>
+
+    <div class="img-gallery" id="galery">
+        <img src="assets/CSS/image/image_tattoo/Tattoo_luis_felipe_1.jpeg" onclick="openFullImg(this.src)">
+        <img src="assets/CSS/image/image_tattoo/Tattoo_luis_felipe_2.jpeg" onclick="openFullImg(this.src)">
+        <img src="assets/CSS/image/image_tattoo/Tattoo_Yasmin_2.jpeg" onclick="openFullImg(this.src)">
+        <img src="assets/CSS/image/image_tattoo/Tattoo_sino.jpeg" onclick="openFullImg(this.src)">
+        <img src="assets/CSS/image/image_tattoo/Tattoo_kennedy.jpeg" onclick="openFullImg(this.src)">
+        <img src="assets/CSS/image/image_tattoo/Tattoo1.jpeg" onclick="openFullImg(this.src)">
+        <img src="assets/CSS/image/image_tattoo/Tattoo_new2.jpeg" onclick="openFullImg(this.src)">
+        <img src="assets/CSS/image/image_tattoo/Tattoo_new4.jpeg" onclick="openFullImg(this.src)">
+    </div>
+
+    <a href="index.html"><button type="button" class="btn btn-outline-primary">Volte ao inicio</button></a>
+
+    <div class="footer-dark">
+        <footer>
+            <div class="container" id="contact">
+                <div class="row">
+
+                    <div class="col-mds-6 item text">
+                        <h3>Volpi Tattoo</h3>
+                        <p>Arte sentida na pele</p>
+                    </div>
+                    <div class="col item social">
+                        <a href="https://www.facebook.com/joaohenrique.volpi" target="_blank"><i
+                                class="icon ion-social-facebook"></i></a>
+                        <a href="https://wa.me/5517996124207?text=Ol%C3%A1%2C+gostaria+de+realizar+um+or%C3%A7amento"
+                            target="_blank"><i class="icon ion-social-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/volpi_joao/" target="_blank"><i
+                                class="icon ion-social-instagram"></i></a>
+                    </div>
+                </div>
+                <p class="copyright">Volpi Tattoo © 2022</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js'></script>
+    <script src="assets/script/script-main.js"></script>
+</body>
+
+</html>
